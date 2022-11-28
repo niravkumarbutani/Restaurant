@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800;900&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+}
+#my-navigation{
+    background-color: #fff;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+}
+#my-navigation ul li{
+    padding: 0px 15px 0px 15px;
+}
+#my-navigation ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+#my-navigation ul li a:hover{
+    background-color: #d65106;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px
+}
+.big-wrapper .navbar{
+    width: 100%;
+    padding: 15px 0px;
+	position: fixed;
+	border-radius: 0px 0px 100px 100px;
+}
+/* Carousal Starts */
+.carousel-inner img{
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-item{
+    background-image: url("../img/slider-01.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+}
+.carousel-item-1{
+    background-image: url("../img/slider-02.jpg");
+}
+.carousel-item-2{
+    background-image: url("../img/slider-03.jpg");
+}
+.carousel-caption h1{
+    font-size: 64px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+.carousel-caption p{
+    font-size: 18px;
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+}
+.more-button{
+    background-color: #d65106;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bolder;
+} 
+span.carousel-control-prev-icon,span.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    background-color: coral;
+    border-radius: 4px;
+}
+.carousel-indicators .active {
+    background-color: coral;
+}
+/* Carousal ends  */
+/* ---------------------------------------------------------- */
+/* about-section starts */
+.about-section{
+    padding: 70px 0;
+    background-image: url(../img/about-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.about-section img{
+    height: auto; 
+    width: 100%;
+    border: 8px solid #d65106;
+}
+.inner-left{
+    text-align: left;
+}
+.inner-left h1{
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+.inner-left h1 span{
+    color: #d65106;
+}
+.inner-left h4{
+	font-size: 16px;
+	font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+.inner-left p{
+	font-size: 18px;
+    line-height: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+/* about-section ends */
+/* ----------------------------------------------------------------------------------- */
+/* quotes starts */
+
+.quote{
+    background-image:url(../img/qt-bg.jpg);
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 100px 0;
+}
+.quote h2{
+    font-size: 35px;
+    font-weight: 320;
+    line-height: 44px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+.quote h4{
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+/* quotes ends */
+
+/* menu-box starts */
+.menu-box{
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+.menu-box .special-menu{
+    margin-bottom: 60px;
+}
+#v-pills-tabContent img{
+    width: 100%;
+}
+.image-gallery{
+	margin-bottom: 20px;
+    box-shadow: 0 0 10px #ccc
+}
+.nav-pills .nav-link.active{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #d65106;
+    padding: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+button#v-pills-home-tab {
+    width: 220px;
+}
+.nav-link {
+    color: black;
+}
+.nav-pills .nav-link:hover {
+    background-color: #d65106;
+}
+/* menu-box ends */
+/* ----------------------------------------------------------------------------------- */
+/* six-image-section starts */
+.six-image-section{
+    padding: 45px 0px;
+}
+
+.six-image-section .img-title h2{
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.six-image-section .img-title p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.six-img{
+    margin-top: 40px;
+
+}
+.six-image-section .six-img img{
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+.six-image-section .six-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgb(215, 67, 67);
+}
+.six-img img{
+	border: 3px solid #d65106;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+/* six-image-section ends */
+/* ----------------------------------------------------------------------------------------- */
+/* contact-info starts */
+.contact-info{
+	background: #d65106;
+	padding: 28px 0;
+	border-radius: 100px;
+}
+.contact-info .info-detail .fa{
+    display: block;
+	float: left;
+	text-align: center;
+	font-size: 60px;
+    margin-right: 20px;
+}
+.contact-info .info-detail{
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.contact-info .info-detail p{
+    margin-bottom: 0px;
+}
+/* contact-info-ends */
+/* ----------------------------------------------------------------------------------- */
+/* footer area starts */
+.footer-area{
+    background-color: black;
+    color: #fff;
+	padding-top: 50px;
+    width: 100%;
+}
+.footer-detail{
+    padding-bottom: 20px;
+}
+.footer-area h3{
+	color: #fff;
+	font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	border-bottom: 2px solid rgba(207, 158, 94, 0.5);
+	margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer-area .footer-detail p{
+	font-size: 15px;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 10px;
+}
+.subscribe_form .form-input {
+    background-color: black;
+	border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 10px;
+    float: left;
+	font-weight: 300;
+    width: 100%;
+}
+.footer-area .footer-detail .submit{
+    width: 100%;
+    height: 45px;
+    background-color: #d65106;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bolder;
+} 
+.footer-area .footer-detail .social{
+    margin-top: 20px;
+    padding-left: 0px;
+    
+}
+.social a .fa{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+	text-align: center;
+}
+.footer-area .footer-detail a{
+    color: #fff;
+}
+
+.copyright{
+	margin-top: 20px;
+	position: relative;
+	background-color: #010101;
+	border-top: 1px solid rgba(207, 166, 113);
+	padding: 30px 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+/* footer-area ends */
+/* ---------------------------------Media Query Starts------------------------------------------------------------- */
+@media (max-width:1100px){
+    .big-wrapper .carousel-inner h1{
+        font-size: 45px;
+    }
+    .big-wrapper .carousel-inner p{
+        font-size: 15px;
+    }
+}
+@media (max-width:992px){
+    #my-navigation ul li{
+        padding: 0px 10px 0px 10px;
+    }
+    .big-wrapper .navbar{
+        padding: 12px 0px;
+        border-radius: 0px 0px 80px 80px;
+    }
+    .inner-left p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .quote{
+        height: 250px;
+        padding: 55px 0;
+    }
+    .quote h2{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .quote h4{
+        font-size: 25px;
+    }
+    button#v-pills-home-tab {
+        width: 155px;
+    }
+    .contact-info{
+        padding: 25px 0;
+        border-radius: 80px;
+    }
+    .contact-info .info-detail .fa{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:768px){
+    .big-wrapper .navbar{
+        border-radius: 0px 0px 60px 60px;
+    }
+    .big-wrapper .carousel-inner h1{
+        font-size: 35px;
+    }
+    .big-wrapper .carousel-inner p{
+        font-size: 12px;
+    }
+    .quote{
+        height: 230px;
+        padding: 50px 0;
+    }
+    .quote h2{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .quote h4{
+        font-size: 20px;
+    }
+    button#v-pills-home-tab {
+        width: 120px;
+    }
+}
+@media (max-width:360px){
+    .big-wrapper .navbar{
+        border-radius: 0px 0px 40px 40px;
+    }
+
+    #my-navigation img{
+        width: 75%;
+    }
+    button.navbar-toggler.collapsed {
+        width: 55px;
+    }
+    .big-wrapper .carousel-inner h1{
+        font-size: 35px;
+    }
+    .big-wrapper .carousel-inner p{
+        font-size: 12px;
+    }
+    .more-button{
+        width: 60%;
+        font-size: 15px;
+    } 
+    .inner-left h1 {
+        font-size: 19px;
+    }
+    .inner-left p {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .quote h2 {
+        font-size: 17px;
+        line-height: 38px;
+    }
+    button#v-pills-home-tab {
+        width: 72px;
+        height: 45px;
+    }
+    .contact-info {
+        padding: 18px 0;
+        border-radius: 50px;
+    }
+    .contact-info .info-detail .fa{
+        font-size: 40px;
+    }
+    .contact-info .info-detail h4{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .contact-info .info-detail p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .copyright p{
+        font-size: 9px;
+    }
+    .carousel-caption{
+        position:relative;
+        top: 250px;
+        left: 0px;
+    }
+}
+/* --------------------------------------------Media Query Ends--------------------------------------------------------- */
+
+
+
+
+
